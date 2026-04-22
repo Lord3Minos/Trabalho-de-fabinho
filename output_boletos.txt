@@ -1,0 +1,71 @@
+--- TESTE BRADESCO ---
+╔══════════════════════════════════╗
+║   SISTEMA DE GERAÇÃO DE BOLETOS  ║
+║   Padrão Builder (GoF) — FEBRABAN ║
+╚══════════════════════════════════╝
+
+Selecione o banco:
+  1 — Bradesco  (código 237)
+  2 — Nubank    (código 260)
+  3 — Unibanco  (código 341)
+Opção: Cedente (nome da empresa/pessoa): Sacado (nome do pagador): CPF/CNPJ do sacado: Valor (ex: 150.75): Data de vencimento (AAAA-MM-DD): Nosso Número (até 8 dígitos): Agência (3 dígitos): Conta (até 7 dígitos): Número do documento: ============================================================
+BOLETO BANCÁRIO — BRADESCO
+============================================================
+Cedente       : Empresa de Teste LTDA
+Sacado        : Fulano de Tal
+Valor         : R$ 1,500.50
+Vencimento    : 31/12/2026
+Nosso Número  : 00012345
+------------------------------------------------------------
+Linha Digitável: 23791.23009 00123.450041 56780.800001 1 106770000150050
+Código Barras  : 237911067700001500501230000123450045678080000
+============================================================
+
+
+--- TESTE NUBANK ---
+╔══════════════════════════════════╗
+║   SISTEMA DE GERAÇÃO DE BOLETOS  ║
+║   Padrão Builder (GoF) — FEBRABAN ║
+╚══════════════════════════════════╝
+
+Selecione o banco:
+  1 — Bradesco  (código 237)
+  2 — Nubank    (código 260)
+  3 — Unibanco  (código 341)
+Opção: Cedente (nome da empresa/pessoa): Sacado (nome do pagador): CPF/CNPJ do sacado: Valor (ex: 150.75): Data de vencimento (AAAA-MM-DD): Nosso Número (até 8 dígitos): Agência (3 dígitos): Conta (até 7 dígitos): Número do documento: ============================================================
+BOLETO BANCÁRIO — NUBANK
+============================================================
+Cedente       : Empresa de Teste LTDA
+Sacado        : Fulano de Tal
+Valor         : R$ 1,500.50
+Vencimento    : 31/12/2026
+Nosso Número  : 0000000000000012345
+------------------------------------------------------------
+Linha Digitável: 26090.00001 10000.000009 00000.123455 1 106770000150050
+Código Barras  : 260911067700001500500000010000000000000012345
+============================================================
+
+
+--- TESTE UNIBANCO ---
+╔══════════════════════════════════╗
+║   SISTEMA DE GERAÇÃO DE BOLETOS  ║
+║   Padrão Builder (GoF) — FEBRABAN ║
+╚══════════════════════════════════╝
+
+Selecione o banco:
+  1 — Bradesco  (código 237)
+  2 — Nubank    (código 260)
+  3 — Unibanco  (código 341)
+Opção: Cedente (nome da empresa/pessoa): Sacado (nome do pagador): CPF/CNPJ do sacado: Valor (ex: 150.75): Data de vencimento (AAAA-MM-DD): Nosso Número (até 8 dígitos): Agência (3 dígitos): Conta (até 7 dígitos): Número do documento: ============================================================
+BOLETO BANCÁRIO — UNIBANCO
+============================================================
+Cedente       : Empresa de Teste LTDA
+Sacado        : Fulano de Tal
+Valor         : R$ 1,500.50
+Vencimento    : 31/12/2026
+Nosso Número  : 00000012345
+------------------------------------------------------------
+Linha Digitável: 34191.23009 45678.200002 00123.451106 1 106770000150050
+Código Barras  : 341911067700001500501230045678200000012345110
+============================================================
+
